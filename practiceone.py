@@ -18,8 +18,8 @@ def get_cities(students):
     result = []
 
     for s in students:
-        if s.get('city'):
-            result.append(s.get('city'))
+        if s.get('name'):
+            result.append(s.get('name'))
 
     return result
 
